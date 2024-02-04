@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.0rem;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pointer{
+    cursor: pointer;
+}
+body{
+    color: #fff;
+    background-color: #008170;
+}
+h1{
+    background-color: #0F0F0F;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    line-height: 8vh;
+}
+main{
+    flex-direction: column;
+    height: 92vh;
+    width: 100vw;
+}
+.main-box1{
+    background-color: #ff8c00;
+    height: 10vh;
+    width: 40%;
+    gap: 1rem;
+    justify-content: end;
+    padding: 0 30px;
+    border-radius: 5px 5px 0 0 ;
+    box-shadow: 
+      10px -10px 10px rgba(0, 0, 0, 0.15),
+      -10px -10px 10px rgba(0, 0, 0, 0.15);
+}
+.main-box2{
+    background-color: #ff8c00;
+    height: 30vh;
+    width: 40%;
+    box-shadow: 
+      10px 10px 10px rgba(0, 0, 0, 0.15), 
+      -10px 10px 10px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0 0 5px 5px ;
+}
+.focusTimer, .breakTimer{
+    font-size: 4rem;
+}
+
+.btn{
+    width: 50%;
+    justify-content: space-around;
+}
+button{
+    background-color: #0F0F0F;
+    color: white;
+    height: 2rem;
+    width: fit-content;
+    border: none;
+    padding: 0 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px #0F0F0F;
+}
+button:active{
+    background-color: #1f1f1f;
+}
+.hide{
+    display: none;
+}

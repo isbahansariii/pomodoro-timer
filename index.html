@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Pomodoro timer</title>
+</head>
+<body>
+    <h1 class="center">Pomodoro timer</h1>
+    <main class="center">
+        <!-- focus and break -->
+        <div class="main-box1 center">
+            <button id="focus" class="center pointer">focus</button>
+            <button id="break" class="center pointer">break</button>
+        </div>
+
+        <!-- timer btns(reset, start, stop) -->
+        <div class="main-box2 center">
+
+            <!-- timer(focus) -->
+            <div class="focusTimer">
+                00 : 25 : 00
+            </div>
+
+            <!-- timer(break) -->
+            <div class="breakTimer hide">
+                00 : 05 : 00
+            </div>
+
+            <!-- buttons -->
+            <div class="btn center">
+                <button class="start center pointer">start</button>
+                <button class="stop center pointer">stop</button>
+                <button class="reset center pointer">reset</button>    
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
