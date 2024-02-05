@@ -77,3 +77,78 @@ button:active{
 .hide{
     display: none;
 }
+
+@media (max-width: 1250px) {
+  .main-box1 {
+    width: 60%;
+  }
+  .main-box2 {
+    width: 60%;
+  }
+}
+@media (max-width: 900px) {
+  .main-box1 {
+    width: 70%;
+  }
+  .main-box2 {
+    height: 25vh;
+    width: 70%;
+  }
+}
+@media (max-width: 700px) {
+  .main-box1 {
+    width: 80%;
+  }
+  .main-box2 {
+    width: 80%;
+  }
+  .btn {
+    width: 65%;
+  }
+}
+@media (max-width: 500px) {
+    .main-box1 {
+        width: 90%;
+      }
+      .main-box2 {
+        height: 20vh;
+        width: 90%;
+      }
+      .btn {
+        width: 75%;
+      }
+  .focusTimer,
+  .breakTimer {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 400px) {
+    .main-box1 {
+        width: 95%;
+      }
+      .main-box2 {
+        width: 95%;
+      }
+      .btn {
+        width: 85%;
+      }
+  .focusTimer,
+  .breakTimer {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 300px) {
+    .main-box1 {
+        width: 98%;
+      }
+      .main-box2 {
+        width: 98%;
+      }
+      .btn {
+        width: 95%;
+      }
+  .focusTimer,
+  .breakTimer {
+    font-size: 2.7rem;
+  }
+}
